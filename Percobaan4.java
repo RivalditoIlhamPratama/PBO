@@ -8,8 +8,8 @@ package Percobaan4;
  *
  * @author WINDOWS 11
  */
-public class ClassB extends ClassA {
-    ClassB(){
-        System.out.println("Konstruktor B dijalankan");
+public class Percobaan4 {
+    public static void main (String [] args){
+        ClassC test = new ClassC();
     }
 }

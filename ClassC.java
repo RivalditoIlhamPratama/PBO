@@ -8,8 +8,9 @@ package Percobaan4;
  *
  * @author WINDOWS 11
  */
-public class ClassB extends ClassA {
-    ClassB(){
-        System.out.println("Konstruktor B dijalankan");
+public class ClassC extends ClassB {
+    ClassC(){
+    super();
+        System.out.println("Konstruktor C dijalankan");
     }
 }
